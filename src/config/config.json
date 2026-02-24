@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "siteTitle": "Ahmad Badwan — Full-Stack Developer",
+    "siteDescription": "Computer Science student and Certified Full-Stack Developer specialized in MERN, Java Spring Boot, and Python Django.",
+    "siteUrl": "https://ahmadbadwan.dev",
+    "ogImage": "https://images.unsplash.com/photo-1607706189992-eae578626c86?w=1200&q=80",
+    "twitterHandle": "@ahmadbadwan"
+  },
+  "theme": {
+    "primaryColor": "#6EE7B7",
+    "primaryDark": "#34D399",
+    "accentColor": "#A78BFA",
+    "fontDisplay": "Syne",
+    "fontBody": "DM Sans"
+  },
+  "personal": {
+    "name": "Ahmad Badwan",
+    "firstName": "Ahmad",
+    "lastName": "Badwan",
+    "title": "Full-Stack Developer",
+    "tagline": "I build scalable, AI-powered web solutions.",
+    "subTagline": "Computer Science Student & AXSOS Academy Graduate specializing in MERN, Spring Boot, and Django.",
+    "email": "ahmad.badwan@students.alquds.edu",
+    "phone": "+970 56-654-8430",
+    "location": "Ramallah, Palestine",
+    "avatar": "https://avatars.githubusercontent.com/u/229131115?s=400&u=6acc5918241c42637d052695c20d27795e1606d4&v=4",
+    "bio": "I am a passionate Full Stack Developer with experience in building scalable web applications across multiple ecosystems. As an AXSOS Academy graduate, I have mastered the MERN stack, Java Spring Boot, and Python Django. I thrive on solving complex problems and bridging the gap between robust backend logic and elegant frontend design.",
+    "cvUrl": "https://docs.google.com/document/d/1hwvaBseJ_scGBx7z1KbfkeWGTbY9vXfr/edit?usp=sharing&ouid=103233653299803385820&rtpof=true&sd=true",
+    "social": {
+      "github": "https://github.com/ahmadbadwann",
+      "linkedin": "https://www.linkedin.com/in/ahmad-badwan-789a5a39b/",
+      "instagram": "https://www.instagram.com/ahma_dbadwan/"
+    }
+  },
+  "skills": [
+    { "name": "React.js", "level": 90, "category": "Frontend" },
+    { "name": "Node.js", "level": 85, "category": "Backend" },
+    { "name": "Spring Boot", "level": 85, "category": "Backend" },
+    { "name": "Django", "level": 80, "category": "Backend" },
+    { "name": "JavaScript", "level": 90, "category": "Language" },
+    { "name": "Java", "level": 85, "category": "Language" },
+    { "name": "Python", "level": 80, "category": "Language" },
+    { "name": "Tailwind CSS", "level": 90, "category": "Frontend" },
+    { "name": "MongoDB", "level": 80, "category": "Database" },
+    { "name": "MySQL", "level": 85, "category": "Database" }
+  ],
+  "experience": [
+    {
+      "role": "Full-Stack Developer Trainee",
+      "company": "AXSOS Academy",
+      "location": "Ramallah, Palestine",
+      "period": "2023 — 2024",
+      "description": "Intensive bootcamp (+600 coding hours) mastering three technology stacks. Developed multiple full-stack projects using Agile methodologies, focusing on data structures and clean code.",
+      "tags": ["MERN", "Java Spring Boot", "Python Django", "Agile"]
+    },
+    {
+      "role": "Computer Science Student",
+      "company": "Al-Quds University",
+      "location": "Abu Dis",
+      "period": "2021 — 2025 (Expected)",
+      "description": "Focusing on Software Engineering, Database Systems, and Algorithms. Applying academic principles to real-world web development challenges.",
+      "tags": ["C++", "Data Structures", "Web Dev", "SQL"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "La3eeb",
+      "description": "AI-powered sports tournament management platform. Features an admin dashboard for organizers and OpenAI integration for automated match performance summaries.",
+      "image": "https://images.unsplash.com/photo-1551958219-acbc608c6377?w=800&q=80",
+      "tech": ["React", "Node.js", "MongoDB", "OpenAI API", "Tailwind"],
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/ahmadbadwann",
+      "featured": true
+    },
+    {
+      "title": "Maslahati",
+      "description": "A service marketplace connecting local craftsmen with users. Built with a robust Java backend and complex relational database schemas for efficient discovery.",
+      "image": "https://images.unsplash.com/photo-1581578731522-9b7d7e860502?w=800&q=80",
+      "tech": ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Bootstrap"],
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/ahmadbadwann",
+      "featured": true
+    },
+    {
+      "title": "CareerPilot",
+      "description": "AI-driven career guidance system that analyzes CVs (PDF/DOCX) and provides personalized recommendations based on user quiz responses.",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+      "tech": ["Python", "Django", "AI Integration", "PostgreSQL"],
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/ahmadbadwann",
+      "featured": true
+    }
+  ],
+  "contact": {
+    "heading": "Let's Connect",
+    "subheading": "Whether you're looking to build a scalable web app or just want to chat about tech, my inbox is always open.",
+    "successMessage": "Message received! I'll get back to you shortly.",
+    "emailjsServiceId": "YOUR_SERVICE_ID",
+    "emailjsTemplateId": "YOUR_TEMPLATE_ID",
+    "emailjsPublicKey": "YOUR_PUBLIC_KEY"
+  }
+}
