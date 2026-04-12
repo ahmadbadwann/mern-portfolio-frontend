@@ -5,7 +5,6 @@ import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
 ];
 
 export default function Navbar({ config, theme, setTheme }) {
