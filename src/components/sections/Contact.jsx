@@ -37,7 +37,7 @@ function InputField({ label, name, type = 'text', placeholder, register, error, 
           }}
           onFocus={(e) => {
             e.target.style.borderColor = 'var(--color-primary)';
-            e.target.style.boxShadow = '0 0 0 3px rgba(110,231,183,0.08)';
+            e.target.style.boxShadow = '0 0 0 3px rgba(16, 185, 129, 0.1)';
           }}
           onBlur={(e) => {
             e.target.style.borderColor = error ? 'rgba(239,68,68,0.5)' : 'var(--color-border)';
@@ -61,7 +61,7 @@ function InputField({ label, name, type = 'text', placeholder, register, error, 
           }}
           onFocus={(e) => {
             e.target.style.borderColor = 'var(--color-primary)';
-            e.target.style.boxShadow = '0 0 0 3px rgba(110,231,183,0.08)';
+            e.target.style.boxShadow = '0 0 0 3px rgba(16, 185, 129, 0.1)';
           }}
           onBlur={(e) => {
             e.target.style.borderColor = error ? 'rgba(239,68,68,0.5)' : 'var(--color-border)';
@@ -148,7 +148,7 @@ export default function Contact({ config }) {
                     <div key={item.label} className="flex items-start gap-4">
                       <div
                         className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5"
-                        style={{ background: 'rgba(110,231,183,0.08)', color: 'var(--color-primary)' }}
+                        style={{ background: 'rgba(16, 185, 129, 0.1)', color: 'var(--color-primary)' }}
                       >
                         <item.icon size={16} />
                       </div>
@@ -213,34 +213,6 @@ export default function Contact({ config }) {
                   </div>
                 </div>
               </div>
-
-              {/* Availability badge */}
-              <motion.div
-                className="glass-card rounded-2xl p-5 flex items-center gap-4"
-                whileHover={{ scale: 1.02 }}
-              >
-                <div className="relative flex-shrink-0">
-                  <div
-                    className="w-3 h-3 rounded-full"
-                    style={{ background: '#4ade80' }}
-                  />
-                  <div
-                    className="absolute inset-0 rounded-full animate-ping"
-                    style={{ background: 'rgba(74,222,128,0.4)' }}
-                  />
-                </div>
-                <div>
-                  <p
-                    className="text-sm font-medium"
-                    style={{ color: 'var(--color-text)' }}
-                  >
-                    Available for freelance
-                  </p>
-                  <p className="text-xs" style={{ color: 'var(--color-text-muted)' }}>
-                    Typically responds within 24h
-                  </p>
-                </div>
-              </motion.div>
             </motion.div>
 
             {/* Form */}
@@ -261,7 +233,7 @@ export default function Contact({ config }) {
                   >
                     <div
                       className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6"
-                      style={{ background: 'rgba(110,231,183,0.1)', color: 'var(--color-primary)' }}
+                      style={{ background: 'rgba(16, 185, 129, 0.1)', color: 'var(--color-primary)' }}
                     >
                       <FiCheck size={36} />
                     </div>
@@ -336,7 +308,7 @@ export default function Contact({ config }) {
                         <>
                           <div
                             className="w-4 h-4 rounded-full border-2 border-t-transparent animate-spin"
-                            style={{ borderColor: '#0a0a0f', borderTopColor: 'transparent' }}
+                            style={{ borderColor: '#ffffff', borderTopColor: 'transparent' }}
                           />
                           Sending...
                         </>
