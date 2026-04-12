@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
@@ -79,35 +80,14 @@ function InputField({ label, name, type = 'text', placeholder, register, error, 
   );
 }
 
+=======
+>>>>>>> 80a2761 (coleer)
 export default function Contact({ config }) {
-  const { personal, contact } = config;
-  const [status, setStatus] = useState('idle'); // idle | loading | success | error
-  const [errorMsg, setErrorMsg] = useState('');
-
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm({ resolver: yupResolver(schema) });
-
-  const onSubmit = async (data) => {
-    setStatus('loading');
-    setErrorMsg('');
-    try {
-      await contactApi.submit(data);
-      setStatus('success');
-      reset();
-    } catch (err) {
-      setStatus('error');
-      setErrorMsg(err.message || 'Something went wrong. Please try again.');
-    }
-  };
-
   return (
     <section id="contact" className="section-padding" aria-label="Contact section">
       <div className="container-max">
         <div className="max-w-5xl mx-auto">
+<<<<<<< HEAD
           <div className="text-center mb-16">
             <p className="section-label mb-3">03. Get In Touch</p>
             <h2
@@ -324,6 +304,9 @@ export default function Contact({ config }) {
               </div>
             </motion.div>
           </div>
+=======
+          {/* Empty contact section - all content removed */}
+>>>>>>> 80a2761 (coleer)
         </div>
       </div>
     </section>
