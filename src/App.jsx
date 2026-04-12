@@ -37,7 +37,7 @@ function HomePage({ theme, setTheme }) {
       <Hero config={config} />
       <About config={config} />
       <Projects config={config} />
-      <Contact config={config} />
+      {/* <Contact config={config} /> */}
       <Footer config={config} theme={theme} setTheme={setTheme} />
     </main>
   );
