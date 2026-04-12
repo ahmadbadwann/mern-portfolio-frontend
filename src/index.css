@@ -9,29 +9,31 @@
 
 /* ─── CSS Custom Properties ─────────────────────────────────────────────────── */
 :root {
-  --color-primary: #6EE7B7;
-  --color-primary-dark: #34D399;
-  --color-accent: #A78BFA;
+  --color-primary: #10b981;
+  --color-primary-dark: #059669;
+  --color-primary-light: #34d399;
+  --color-accent: #8b5cf6;
+  --color-accent-light: #a78bfa;
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 }
 
 .dark {
-  --color-bg: #0a0a0f;
-  --color-surface: #111118;
-  --color-surface-2: #1a1a24;
-  --color-border: rgba(110, 231, 183, 0.12);
-  --color-text: #e8e8f0;
-  --color-text-muted: #7a7a9a;
+  --color-bg: #0f0f0f;
+  --color-surface: #1a1a1a;
+  --color-surface-2: #252525;
+  --color-border: rgba(16, 185, 129, 0.15);
+  --color-text: #f5f5f5;
+  --color-text-muted: #9ca3af;
 }
 
 .light {
-  --color-bg: #f8f8fc;
-  --color-surface: #ffffff;
-  --color-surface-2: #f0f0f8;
-  --color-border: rgba(0, 0, 0, 0.08);
-  --color-text: #0f0f1a;
-  --color-text-muted: #666680;
+  --color-bg: #ffffff;
+  --color-surface: #f9fafb;
+  --color-surface-2: #f3f4f6;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-text: #111827;
+  --color-text-muted: #6b7280;
 }
 
 /* ─── Base ───────────────────────────────────────────────────────────────────── */
@@ -82,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ─── Selection ─────────────────────────────────────────────────────────────── */
 ::selection {
   background: var(--color-primary);
-  color: #0a0a0f;
+  color: #ffffff;
 }
 
 /* ─── Cursor glow ───────────────────────────────────────────────────────────── */
@@ -90,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(110,231,183,0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.08) 0%, transparent 70%);
   position: fixed;
   pointer-events: none;
   transform: translate(-50%, -50%);
@@ -110,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── Grid background ────────────────────────────────────────────────────────── */
 .grid-bg {
-  background-image: radial-gradient(circle, rgba(110,231,183,0.06) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgba(16, 185, 129, 0.08) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
@@ -138,15 +140,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .glass-card:hover {
-  border-color: rgba(110, 231, 183, 0.3);
-  box-shadow: 0 0 30px rgba(110, 231, 183, 0.08);
+  border-color: rgba(16, 185, 129, 0.3);
+  box-shadow: 0 0 30px rgba(16, 185, 129, 0.1);
   transform: translateY(-4px);
 }
 
 .btn-primary {
   @apply inline-flex items-center gap-2 px-6 py-3 rounded-lg font-display font-semibold text-sm;
   background: var(--color-primary);
-  color: #0a0a0f;
+  color: #ffffff;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -163,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(110, 231, 183, 0.35);
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
 }
 
 .btn-primary:hover::after {
@@ -178,9 +180,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-outline:hover {
-  background: rgba(110, 231, 183, 0.08);
+  background: rgba(16, 185, 129, 0.1);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(110, 231, 183, 0.2);
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.25);
 }
 
 /* ─── Section title styling ──────────────────────────────────────────────────── */
@@ -226,9 +228,9 @@ h1, h2, h3, h4, h5, h6 {
 /* ─── Tech badge ─────────────────────────────────────────────────────────────── */
 .tech-badge {
   @apply px-2.5 py-1 text-xs rounded-md;
-  background: rgba(110, 231, 183, 0.08);
+  background: rgba(16, 185, 129, 0.1);
   color: var(--color-primary);
-  border: 1px solid rgba(110, 231, 183, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.2);
   font-family: var(--font-body);
   font-weight: 500;
 }
@@ -281,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(
     90deg,
     var(--color-surface-2) 25%,
-    rgba(110, 231, 183, 0.05) 50%,
+    rgba(16, 185, 129, 0.08) 50%,
     var(--color-surface-2) 75%
   );
   background-size: 200% 100%;
